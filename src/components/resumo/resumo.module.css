@@ -1,0 +1,33 @@
+.container{
+    padding: 20px 12%;
+
+    & h3 {
+        font-weight: 400;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+}
+.coloredText{
+    color: rgb(89, 221, 177);
+}
+.paragraphs{
+    display: flex;
+    line-height: 27px;
+    text-align: justify;
+    hyphens: auto;
+    margin-top: 5%;
+}
+.firstParagraph{
+    border-right: 1px solid #dfdfdf;
+    padding-right: 20px;
+}
+
+.secondParagraph{
+    padding-left: 20px;
+}
+
+.habilitiesList{
+    margin-top: 60px;
+    margin-left: 30px;
+    line-height: 27px;
+}

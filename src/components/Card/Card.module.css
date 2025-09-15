@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.title{
+    color: rgb(89, 221, 177);
+}
+
+.photo{
+    max-width: 100%;
+    border-radius: 5px;
+    height: 170px;
+}

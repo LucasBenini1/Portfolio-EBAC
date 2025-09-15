@@ -1,0 +1,36 @@
+.container{
+    padding: 50px 8%;
+}
+.itensContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+.coloredText{
+    color: rgb(89, 221, 177);
+}
+
+.itemHeader{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.itemBody{
+    max-width: 90%;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: justify;
+    hyphens: auto;
+}

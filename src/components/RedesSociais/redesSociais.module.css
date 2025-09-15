@@ -1,0 +1,10 @@
+.title{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.coloredText{
+    color: rgb(89, 221, 177);
+}
