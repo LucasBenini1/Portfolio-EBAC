@@ -1,5 +1,5 @@
 import styles from './hero.module.css'
-import FotoHero from '../../img/Foto-hero.jpeg';
+import FotoHero from '../../../public/Foto-Hero.jpeg';
 import Technologies from '../technologies/technologies';
 
 
