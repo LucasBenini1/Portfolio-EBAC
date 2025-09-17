@@ -21,7 +21,7 @@ export default function Github(){
 
     return(
         <>
-        <h1 className={styles.title}>Github <span className={styles.coloredText}>Status</span></h1>
+        <h1 className={styles.title} id='github'>Github <span className={styles.coloredText}>Status</span></h1>
         <div className={styles.container}>
             <div className={styles.photoContainer}>
                 <img src={data.avatar_url} alt="Minha imagem de perfil do Github" className={styles.photo}/>
@@ -38,20 +38,7 @@ export default function Github(){
                     <span>{data.following}</span>
                 </div>
             </div>
-            <div className={styles.moreInfo}>
-                <p>Repositórios: {data.public_repos}</p>
-                <p>
-                Último Commit:{" "}
-                {new Date(data.updated_at).toLocaleString("pt-BR", {
-                    day: "2-digit",
-                    month: "2-digit",
-                    year: "2-digit",
-                    hour: "2-digit",
-                    minute: "2-digit",
-                })}
-                </p>
-            </div>
-
+                <p>Repositórios Públicos: {data.public_repos}</p>
         </div>
         </>
     )

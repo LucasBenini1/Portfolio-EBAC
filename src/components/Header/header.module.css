@@ -1,24 +1,91 @@
-.container{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 9vh;
-    align-content: center;
-    background-color: #fafafa;
+.container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 9vh;
+  align-content: center;
+  background-color: #fafafa;
+  position: relative;
+  transition: height 0.3s ease;
 }
+
 .insideContainer {
-        & ul {
-            display: flex;
-            list-style: none;
-            justify-content: space-evenly;
-            width: 60%;
-            margin: 0 auto;
+  transition: 0.5s;
+  animation: fadeUp 0.6s ease forwards;
+}
 
-            & li {
-                cursor: pointer;
-                font-weight: 500;
+.insideContainer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
 
-                &:hover{
-                    border-bottom: 1px solid #ccc;
-                }
-            }
-        }
+.insideContainer ul li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .insideContainer {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .insideContainer.active {
+    display: block;
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  .insideContainer ul {
+    width: 100%;
+    display: block;
+  }
+
+  .insideContainer ul li {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .menuHamburguer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .line {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+  }
+}
+
+@media (min-width: 769px) {
+  .menuHamburguer {
+    display: none;
+  }
+  .insideContainer ul li:hover {
+    border-bottom: 1px solid #ccc;
+  }
+  .insideContainer ul li a:hover{
+    border-bottom: 1px solid #fff;
+  }
 }

@@ -1,20 +1,28 @@
 .container{
-    padding: 20px 12%;
-}
-
-.title{
-    font-weight: 400;
-    font-size: 25px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-
-.item{
-    margin-bottom: 25px;
+    margin-right: 20px;
 }
 
 .itemHeader{
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.itens{
+    display: flex;
+    gap: 30px;
+}
+
+
+@media (max-width: 768px){
+    .container{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .itens{
+        justify-content: center;
+    }
+    .itemHeader{
+        justify-content: center;
+    }
 }

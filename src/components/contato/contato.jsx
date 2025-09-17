@@ -4,8 +4,7 @@ import { FiPhone, FiMail } from "react-icons/fi";
 export default function Contato(){
     return(
         <>
-            <div className={styles.container}>
-                <h3 className={styles.title}>Contato</h3>
+            <div className={styles.container} id='contato'>
                 <div className={styles.itens}>
                     <div className={styles.item}>
                         <div className={styles.itemHeader}>

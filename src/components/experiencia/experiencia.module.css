@@ -24,6 +24,14 @@
     gap: 15px;
     margin: 20px 0;
 }
+.itemHeaderTexts i{
+    color: #818181;
+    font-size: 12px;
+}
+
+.itemHeaderTexts p{
+    font-size: 14px;
+}
 
 .itemBody{
     max-width: 90%;
@@ -33,4 +41,36 @@
     gap: 7px;
     text-align: justify;
     hyphens: auto;
+}
+
+.photo{
+    width: 30px;
+    height: 30px;
+}
+
+.photoBlink{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 768px){
+    .itensContainer{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+    .itemBody{
+        text-align: start;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+        .itensContainer{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+        .itemBody{
+        text-align: start;
+        max-width: 100%;
+    }
 }

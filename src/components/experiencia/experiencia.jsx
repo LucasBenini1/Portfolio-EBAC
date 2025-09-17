@@ -3,17 +3,17 @@ import styles from './experiencia.module.css'
 export default function Experiencia(){
     return(
         <>
-            <div className={styles.container}>
+            <div className={styles.container} id='experiencia'>
                 <h3 className={styles.title}>Experiência <span className={styles.coloredText}>Profissional</span></h3>
 
             <div className={styles.itensContainer}>
                 <div className={styles.item}>
                     <div className={styles.itemHeader}>
-                        <img src="https://www.dummyimage.com/30x30" alt="Imagem da dummyimage" />
+                        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQH9Ayi3APhlrQ/company-logo_200_200/B4DZUU_VtuHwAU-/0/1739813903564/autorolabrasil_logo?e=2147483647&v=beta&t=EgH4s_xpJsnSZoGgOhrgDvZ4ZsmVAbYngrDf2p_CDS4" alt="Imagem da empresa Autorola" className={styles.photo}/>
                         <div className={styles.itemHeaderTexts}>
                             <h4>Autorola</h4>
-                            <p><i>dez/2023 - abr/2024</i></p>
                             <p>Estagiário de TI</p>
+                            <p><i>dez/2023 - abr/2024</i></p>
                         </div>
                     </div>
 
@@ -28,11 +28,11 @@ export default function Experiencia(){
 
                 <div className={styles.item}>
                     <div className={styles.itemHeader}>
-                        <img src="https://www.dummyimage.com/30x30" alt="Imagem da dummyimage" />
+                        <img src="https://img.myloview.com.br/adesivos/vector-logo-veterinaria-700-1791046.jpg" alt="Imagem de medicina veterinaria" className={styles.photo}/>
                         <div className={styles.itemHeaderTexts}>
                             <h4>Fisioterapeuta Animal</h4>
-                            <p><i>mai/2025</i></p>
                             <p>Desenvolvedor de Front-End - Freelancer</p>
+                            <p><i>mai/2025</i></p>
                         </div>
                     </div>
                     <ul className={styles.itemBody}>
@@ -46,11 +46,11 @@ export default function Experiencia(){
 
                 <div className={styles.item}>
                     <div className={styles.itemHeader}>
-                        <img src="https://www.dummyimage.com/30x30" alt="Imagem da dummyimage" />
+                        <img src="/apenas-img-blink.png" alt="Imagem da empresa blink" className={styles.photoBlink}/>
                         <div className={styles.itemHeaderTexts}>
-                            <h4>blink</h4>
-                            <p><i>mai/2025 - Atual</i></p>
+                            <h4>Blink</h4>
                             <p>Desenvolvedor de Front-End</p>
+                            <p><i>mai/2025 - Atual</i></p>
                         </div>
                     </div>
                     <ul className={styles.itemBody}>

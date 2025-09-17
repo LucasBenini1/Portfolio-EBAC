@@ -18,7 +18,7 @@
 }
 .containerDark{
     height: 91vh;
-    background: linear-gradient(to top right, black, rgb(27, 27, 27) );
+    background: linear-gradient(to top right, black, rgb(27, 27, 27));
     transition: 0.5s ease;
 }
 
@@ -68,6 +68,14 @@
     transition: 0.5s ease;
 }
 
+.buttons a{
+    color: #fff;
+}
+
+.linkedin{
+    color: #fff;
+}
+
 .buttons:hover{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
@@ -106,4 +114,51 @@
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px){
+    .bigContainer{
+        padding: 0px 12%;
+    }
+    .upperContainer{
+        flex-direction: column;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph{
+        margin: 5% auto;
+        max-width: 97%;
+    }
+    .city{
+        margin-bottom: 30px;
+    }
+    .heroPhotoContainer{
+        margin-bottom: 30px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+        .bigContainer{
+        padding: 0px 12%;
+    }
+    .upperContainer{
+        flex-direction: column;
+    }
+    .content{
+        display: inline-block;
+        flex-direction: column;
+    }
+        .paragraph{
+        margin: 5% auto;
+        max-width: 97%;
+    }
+    .city{
+        margin-bottom: 30px;
+    }
+    .heroPhotoContainer{
+        margin: 0 auto;
+    }
 }

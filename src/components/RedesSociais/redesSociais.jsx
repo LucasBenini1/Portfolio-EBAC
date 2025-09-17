@@ -1,19 +1,27 @@
-import styles from './redesSociais.module.css'
+import styles from './redesSociais.module.css';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-export default function RedesSociais(){
-    return(
-        <>
-            <div className={styles.container}>
-                <h1 className={styles.title}>Redes <span className={styles.coloredText}>Sociais</span></h1>
-
-                <div className={styles.item}>
-                    <h5>Instagram</h5>
-                </div>
-                <div className={styles.item}>
-                    <h5>LinkedIn</h5>
-                </div>
-            </div>
-
-        </>
-    )
+export default function RedesSociais() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <a
+          href="https://www.instagram.com/lucasbenini_/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className={styles.icon} />
+        </a>
+      </div>
+      <div className={styles.item}>
+        <a
+          href="https://www.linkedin.com/in/lucasbenini"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className={styles.icon} />
+        </a>
+      </div>
+    </div>
+  );
 }
