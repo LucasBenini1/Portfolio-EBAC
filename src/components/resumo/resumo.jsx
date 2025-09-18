@@ -7,7 +7,7 @@ export default function Resumo(){
             <h3>Resumo das <span className={styles.coloredText}>Qualificações</span></h3>
             <div className={styles.paragraphs}>
                 <p className={styles.firstParagraph}>
-                    Experiência como freelancer, com participação ativa em projetos reais de clientes 
+                    Experiência com participação ativa em projetos reais de clientes 
                     como um SaaS para clínicas odontológicas, onde colaboro com uma equipe de back-end,
                     design e desenvolvimento de landing page.  
                     Desenvolvimento de  projetos, como uma to-do list em React com funcionalidades de editar, 
@@ -26,7 +26,7 @@ export default function Resumo(){
                 <li>Inglês Avançado c/ experiência profissional.</li>
                 <li>Habilidades em HTML5, CSS3, JavaScript ES6, TypeScript, React, SCSS, LESS, Git,
                      Bootstrap, Styled-Components e Criação de Interfaces.</li>
-                <li>Conhecimentos em Automação de Tarefas, Next, Vue, POO, Tailwind, Vercel e Acessibilidade Web.</li>
+                <li>Conhecimentos em Automação de Tarefas, Next, Node.js, Vue, POO, Tailwind, Vercel e Acessibilidade Web.</li>
                 <li>Noções de Angular e Python.</li>
             </ul>
         </div>
