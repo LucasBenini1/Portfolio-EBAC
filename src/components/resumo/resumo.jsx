@@ -11,7 +11,7 @@ export default function Resumo(){
                     como um SaaS para clínicas odontológicas, onde colaboro com uma equipe de back-end,
                     design e desenvolvimento de landing page.  
                     Desenvolvimento de  projetos, como uma to-do list em React com funcionalidades de editar, 
-                    salvar e excluir tarefas, uma análise de uma database csv com Python, exercícios de compartilhamento 
+                    salvar e excluir tarefas, uma análise de uma database CSV com Python, exercícios de compartilhamento 
                     de estado com Redux e Context API, estilização com SCSS, LESS e Styled-Components. 
                 </p>
                 <p className={styles.secondParagraph}>
