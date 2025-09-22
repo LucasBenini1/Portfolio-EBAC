@@ -26,7 +26,7 @@ export default function Resumo(){
                 <li>Inglês Avançado c/ experiência profissional.</li>
                 <li>Habilidades em HTML5, CSS3, JavaScript ES6, TypeScript, React, SCSS, LESS, Git,
                      Bootstrap, Styled-Components e Criação de Interfaces.</li>
-                <li>Conhecimentos em Automação de Tarefas, Next, Node.js, Vue, POO, Tailwind, Vercel e Acessibilidade Web.</li>
+                <li>Conhecimentos em Automação de Tarefas, Next, Node.js, MongoDB, Prisma, Vue, POO, Tailwind, Vercel e Acessibilidade Web.</li>
                 <li>Noções de Angular e Python.</li>
             </ul>
         </div>

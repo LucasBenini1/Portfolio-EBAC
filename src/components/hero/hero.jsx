@@ -10,9 +10,9 @@ export default function Hero (){
             <div className={styles.bigContainer} id='home'>
                 <div className={styles.upperContainer}>
                     <div className={styles.content}>
-                        <h1 className={styles.title}>Desenvolvedor Front-End</h1>
+                        <h1 className={styles.title}>Desenvolvedor Fullstack</h1>
                         <h3 className={styles.subTitle}>Lucas Benini</h3>
-                        <p className={styles.paragraph}>Desenvolvedor Front-End em formação pela EBAC – Escola Britânica de Artes Criativas e Tecnologia, com graduação em Sistemas de Informação pela Universidade Anhembi Morumbi.</p>
+                        <p className={styles.paragraph}>Desenvolvedor Fullstack em formação pela EBAC – Escola Britânica de Artes Criativas e Tecnologia, com graduação em Sistemas de Informação pela Universidade Anhembi Morumbi.</p>
                         <button className={styles.buttons}>
                             <a href="/curriculum.pdf" download>Download Currículo</a>
                         </button>
